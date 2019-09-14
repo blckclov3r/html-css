@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: #006699;
+    height: 2000px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#footer{
+    color: #eee;
+    background-color: #333;
+    position: relative;
+    height: 100px;
+    margin-top: 10px;
+    margin-top: -100px;
+    clear: both;
+}
